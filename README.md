@@ -102,7 +102,9 @@ We press the "Create build project"
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/728b8d2b-71b9-40f4-be92-95fb1972200b)
 
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/42734826-4b3b-460a-b337-d38942c59eb6)
 
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/6bf04079-8fba-45e5-82c6-2ca0e55824be)
 
 ## 6. Create AWS CodeDeploy 
 
