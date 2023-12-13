@@ -108,6 +108,81 @@ We press the "Create build project"
 
 ## 6. Create AWS CodeDeploy 
 
+To create an AWS CodeDeploy setup for your .NET 6 Web API to deploy it on AWS ECS (Elastic Container Service), you'll need to follow several steps. Here's a high-level overview:
+
+1. Prepare Your .NET 6 Web API Application
+
+Ensure your .NET 6 Web API is containerized using Docker. This involves creating a Dockerfile in your project.
+
+Test the container locally to ensure it runs correctly.
+
+3. Push Your Docker Image to Amazon ECR (Elastic Container Registry)
+
+Create a new repository in Amazon ECR.
+
+Use the Docker CLI to tag and push your image to the ECR repository.
+
+3. Set Up an ECS Cluster
+
+Go to the ECS section in the AWS Management Console.
+
+Create a new ECS cluster. Choose an appropriate cluster template (like EC2 or Fargate, depending on your needs).
+
+4. Create a Task Definition
+
+In the ECS console, create a new task definition.
+
+Define the Docker image to use (from ECR), CPU and memory requirements, and other settings like environment variables.
+
+5. Set Up CodeDeploy
+
+Go to the CodeDeploy section in AWS Management Console.
+
+Create a new application and deployment group.
+
+Specify the deployment type as 'ECS'.
+
+Configure deployment settings like the ECS service and load balancer (if you are using one).
+
+6. Integrate with CI/CD (Optional)
+
+If you're using a CI/CD pipeline (like AWS CodePipeline, Jenkins, GitHub Actions, etc.), integrate it with CodeDeploy.
+
+This ensures that new commits to your repository trigger the deployment process.
+
+7. Deploy Your Application
+
+Initiate a deployment manually through the AWS Console or through your CI/CD pipeline.
+
+Monitor the deployment status in the CodeDeploy console.
+
+8. Test and Verify
+
+After the deployment is successful, test your application to ensure it's running as expected.
+
+Check logs, performance metrics, and other monitoring tools.
+
+Additional Tips:
+
+Security: Make sure to configure security groups and IAM roles appropriately for secure access.
+
+Rollback Strategy: Familiarize yourself with rollback strategies in case a deployment fails.
+
+Logging and Monitoring: Use AWS CloudWatch for logging and monitoring your application.
+
+This process involves a combination of containerization, orchestration, and continuous deployment strategies. 
+
+For detailed instructions, refer to AWS documentation and guides specific to .NET, Docker, ECS, and CodeDeploy.
+
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/b04c008d-d4a7-460b-9a88-ba7eccf6cbf2)
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/b563fbd0-6c1a-49ef-9804-8d22cfa4ee62)
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/b69ddb9c-aee1-43f3-9939-9babf84b0683)
+
+We create a deployment group
+
 
 ## 7. Create AWS Pipeline
 
