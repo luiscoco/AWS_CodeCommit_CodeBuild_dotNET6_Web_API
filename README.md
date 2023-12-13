@@ -48,7 +48,12 @@ After creating the project we creat a new Git repo
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/8efdc506-0f5a-44dd-a2ee-9d1a7fb38b9d)
 
-## 4. 
+## 4. Add the buildspec.yml file to the Web API application
+
+We add a new buildspec.yml file in our project
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/f7a2fdc2-6f4f-4b83-9ad2-4595421e0125)
+
 
 
 
