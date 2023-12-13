@@ -54,8 +54,37 @@ We add a new buildspec.yml file in our project
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/f7a2fdc2-6f4f-4b83-9ad2-4595421e0125)
 
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/d7b46e40-dcaa-407b-a829-d6dfbeaadee8)
 
+```yaml
+version: 0.2
 
+phases:
+  install:
+    runtime-versions:
+      dotnet: 6.0  # Updated to a supported version
+  pre_build:
+    commands:
+      - echo Restoring solution
+      - dotnet restore
+  build:
+    commands:
+      - echo Build started on `date`
+      - dotnet build -c Release
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - dotnet publish -c Release -o ./publish
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: './publish'
+
+cache:
+  paths:
+    - '/root/.nuget/**/*'
+```
 
 ## 5. Create AWS CodeBuild project
 
