@@ -74,6 +74,8 @@ We add a new buildspec.yml file in our project
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/d7b46e40-dcaa-407b-a829-d6dfbeaadee8)
 
+This is the **buildspec.yml** file source code
+
 ```yaml
 version: 0.2
 
