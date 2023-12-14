@@ -120,9 +120,7 @@ We set the AWS CodeBuild project name, we select the Source Provider AWS CodeCom
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/2b713a5d-f778-4a74-a2f2-d55f83a9458f)
 
-In this step we set the environment for building the solution. 
-
-We select a Linux Ubuntu Virtual Machine. 
+In this step we set the environment for building the solution. We select a Linux Ubuntu Virtual Machine. 
 
 We also create a new service role for CodeBuild.
 
