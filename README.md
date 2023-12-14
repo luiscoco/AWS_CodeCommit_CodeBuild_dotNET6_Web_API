@@ -130,9 +130,15 @@ It is time to specify the building commands, for this purpose we created in the 
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/cc71932e-a2ec-41cf-9e2a-1e9cc3efbc4d)
 
+We press the **Create build project** button
+
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/728b8d2b-71b9-40f4-be92-95fb1972200b)
 
+We press the **Start build** button 
+
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/42734826-4b3b-460a-b337-d38942c59eb6)
+
+We can verify our solution was successfuly built
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/6bf04079-8fba-45e5-82c6-2ca0e55824be)
 
