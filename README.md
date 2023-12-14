@@ -64,7 +64,7 @@ After creating the project we creat a new Git repo
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/3d051a09-81b9-402e-8ffd-946d6cf0fca3)
 
-We copy the AWS Code repo URL in the Git repo URL: https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6webapi
+We copy the AWS CodeCommit repo URL in the Git repo URL: https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6webapi
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/8efdc506-0f5a-44dd-a2ee-9d1a7fb38b9d)
 
@@ -113,6 +113,8 @@ cache:
 We press the "Create build project"
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/d7ae95de-bca9-44ee-8e8f-5d918057cb0f)
+
+We set the AWS CodeBuild project name and the AWS CodeCommit repo 
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/b3938274-4ae6-4c17-890e-636d7b98ab19)
 
