@@ -12,6 +12,10 @@ Click on **Users** menu option
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/acc165a5-1ae9-4de7-9b30-85717b867a0c)
 
+Now we click on our user name, in my case "cloudUserLuis"
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/7fa3f0f4-d0e8-4ed1-8778-68349228369b)
+
 We grant "**AWSCodeCommitPowerUser**" permission to your user
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/41379fb2-b5e0-4ef9-9528-4f9ec7f4972e)
