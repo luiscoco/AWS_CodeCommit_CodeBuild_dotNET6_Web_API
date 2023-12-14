@@ -1,12 +1,14 @@
-# AWS CodeCommit CodeBuild .NET 6 Web API
+# A simple tutorial to start working with AWS CodeCommit and CodeBuild .NET 6 Web API
 
 ## 1. Prerequisites
 
 ### 1.1. Grant AWSCodeCommitPowerUser permission to your user
 
-Navigate to AWS IAM service and add permission to your user to work with CodeCommit
+Navigate to **AWS IAM** service and add permission to your user to work with AWS CodeCommit service
 
-We have to grant "**AWSCodeCommitPowerUser**" permission
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/a3750070-f17f-44b1-8794-67471c72c3a3)
+
+We grant "**AWSCodeCommitPowerUser**" permission to your user
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/41379fb2-b5e0-4ef9-9528-4f9ec7f4972e)
 
