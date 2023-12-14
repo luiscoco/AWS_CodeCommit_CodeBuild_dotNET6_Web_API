@@ -1,4 +1,4 @@
-# A simple tutorial to start working with AWS CodeCommit and CodeBuild .NET 6 Web API
+# A simple tutorial to start working with AWS CodeCommit and CodeBuild creating and compiling a .NET 6 Web API
 
 **IMPORTANT NOTE!**: AWS CodeBuild only works with **.NET 6** but not it is not yet available for .NET 7 neither for .NET 8
 
