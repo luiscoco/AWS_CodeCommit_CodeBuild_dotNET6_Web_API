@@ -32,11 +32,11 @@ We grant "**AWSCodeCommitPowerUser**" permission to your user
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/2058e177-42a5-4e51-b9c9-5dbda61f817e)
 
-![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/4d418df6-0aa5-460a-b663-003b2ba22a43)
-
 This is the AWS CodeCommit repo we created:
 
-git clone https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6webapi
+git clone **https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6webapi**
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/4d418df6-0aa5-460a-b663-003b2ba22a43)
 
 ## 3. Create .NET 6 Web API in Visual Studio 2022
 
