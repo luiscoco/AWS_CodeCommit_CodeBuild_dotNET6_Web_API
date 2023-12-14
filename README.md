@@ -114,7 +114,7 @@ We press the "Create build project"
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/d7ae95de-bca9-44ee-8e8f-5d918057cb0f)
 
-We set the AWS CodeBuild project name and the AWS CodeCommit repo 
+We set the AWS CodeBuild project name, we select the Source Provider AWS CodeCommit and finally we select the AWS CodeCommit repo 
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/b3938274-4ae6-4c17-890e-636d7b98ab19)
 
