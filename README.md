@@ -126,6 +126,8 @@ We also create a new service role for CodeBuild.
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/d93ac00d-6835-4f06-bdc5-6f99807f7f57)
 
+It is time to specify the building commands, for this purpose we created in the above steps a buildspec.yml file. Now we confirm we are going to use the buildspec.yml file for building our solution.
+
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/cc71932e-a2ec-41cf-9e2a-1e9cc3efbc4d)
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/728b8d2b-71b9-40f4-be92-95fb1972200b)
