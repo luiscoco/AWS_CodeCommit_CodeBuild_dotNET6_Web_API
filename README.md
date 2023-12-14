@@ -8,6 +8,10 @@ Navigate to **AWS IAM** service and add permission to your user to work with AWS
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/a3750070-f17f-44b1-8794-67471c72c3a3)
 
+Click on **Users** menu option
+
+![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/acc165a5-1ae9-4de7-9b30-85717b867a0c)
+
 We grant "**AWSCodeCommitPowerUser**" permission to your user
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/41379fb2-b5e0-4ef9-9528-4f9ec7f4972e)
