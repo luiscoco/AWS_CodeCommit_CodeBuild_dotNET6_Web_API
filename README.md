@@ -40,13 +40,19 @@ git clone **https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6we
 
 ## 3. Create .NET 6 Web API in Visual Studio 2022
 
-Run Visual Studio 2022 Community Edition 
+Run Visual Studio 2022 Community Edition and select the option **Create a new project**
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/4a3bf546-7af5-4fbd-b396-44717f640762)
 
+We select the Web API project template
+
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/f433447b-f789-467a-9364-271570604284)
 
+We set the solution name and location
+
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/9c5a22d4-1cab-4dba-9ede-57c2fb701f3e)
+
+We select the options shown in the following picture
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/898ffe2a-14d8-469d-b610-25028910e60d)
 
