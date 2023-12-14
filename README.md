@@ -62,7 +62,7 @@ After creating the project we creat a new Git repo
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/3d051a09-81b9-402e-8ffd-946d6cf0fca3)
 
-We copy the AWS Code repo URL in the Git repo URL 
+We copy the AWS Code repo URL in the Git repo URL: https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/mydotnet6webapi
 
 ![image](https://github.com/luiscoco/AWS_CodeCommit_CodeBuild_dotNET6_Web_API/assets/32194879/8efdc506-0f5a-44dd-a2ee-9d1a7fb38b9d)
 
